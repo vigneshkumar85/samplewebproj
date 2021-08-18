@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-	@GetMapping("/")
+	@GetMapping("/getDetails")
 	public String index() {
-		return "Greetings from Spring Boot test4!";
+		return "Welcome to Sample project!";
 	}
 
 }
